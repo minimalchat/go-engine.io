@@ -2,6 +2,8 @@
 
 [![GoDoc](http://godoc.org/github.com/googollee/go-engine.io?status.svg)](http://godoc.org/github.com/googollee/go-engine.io) [![Build Status](https://travis-ci.org/googollee/go-engine.io.svg)](https://travis-ci.org/googollee/go-engine.io)
 
+**This is a fork of a open source library that has since updated with breaking changes, Minimal Chat is only using this until we can update our own source code, PLEASE DONT USE THIS SPECIFIC FORK OTHERWISE IT IS OUTDATED**
+
 go-engine.io is the implement of engine.io in golang, which is transport-based cross-browser/cross-device bi-directional communication layer for [go-socket.io](https://github.com/googollee/go-socket.io).
 
 It is compatible with node.js implement, and supported long-polling and websocket transport.
