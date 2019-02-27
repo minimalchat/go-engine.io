@@ -1,6 +1,6 @@
 # go-engine.io
 
-[![GoDoc](http://godoc.org/github.com/googollee/go-engine.io?status.svg)](http://godoc.org/github.com/googollee/go-engine.io) [![Build Status](https://travis-ci.org/googollee/go-engine.io.svg)](https://travis-ci.org/googollee/go-engine.io)
+[![GoDoc](http://godoc.org/github.com/minimalchat/go-engine.io?status.svg)](http://godoc.org/github.com/minimalchat/go-engine.io) [![Build Status](https://travis-ci.org/minimalchat/go-engine.io.svg)](https://travis-ci.org/minimalchat/go-engine.io)
 
 **This is a fork of a open source library that has since updated with breaking changes, Minimal Chat is only using this until we can update our own source code, PLEASE DONT USE THIS SPECIFIC FORK OTHERWISE IT IS OUTDATED**
 
@@ -13,13 +13,13 @@ It is compatible with node.js implement, and supported long-polling and websocke
 Install the package with:
 
 ```bash
-go get github.com/googollee/go-engine.io
+go get github.com/minimalchat/go-engine.io
 ```
 
 Import it with:
 
 ```go
-import "github.com/googollee/go-engine.io"
+import "github.com/minimalchat/go-engine.io"
 ```
 
 and use `engineio` as the package name inside the code.
@@ -37,7 +37,7 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/googollee/go-engine.io"
+	"github.com/minimalchat/go-engine.io"
 )
 
 func main() {
